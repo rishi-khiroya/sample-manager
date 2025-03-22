@@ -1,3 +1,76 @@
 # Pants workspace files
 /.pants.d
 /dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode settings and workspace files
+.vscode/
+
+# Build directories (common for CMake, Qt, etc.)
+build/
+cmake-build-*/
+out/
+bin/
+Debug/
+Release/
+
+# Qt specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node / Electron artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# JUCE generated files (if any)
+Builds/
+
+# Compiled object files, libraries, executables (C/C++)
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+*.exe
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Other IDE or editor specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore any secrets
+*.pem
+*.key
