@@ -1,0 +1,13 @@
+[GLOBAL]
+pants_version = "2.25.0"
+
+[python-setup]
+interpreter_constraints = [">=3.8"]
+
+backend_packages = [
+  "pants.backend.python",
+  "pants.backend.shell",   # For wrapping external build commands (e.g., CMake)
+  "pants.backend.node",    # For Node-based projects (if needed)
+]
+
+[lint]
