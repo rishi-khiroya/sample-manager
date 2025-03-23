@@ -1,0 +1,23 @@
+[project]
+name = "data"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Rishi Khiroya",email = "rishi@vrish.dev"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "librosa (>=0.11.0,<0.12.0)",
+    "ipywidgets (>=8.1.5,<9.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.3.3"
